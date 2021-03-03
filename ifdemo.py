@@ -1,6 +1,7 @@
-no1=int(input("Enter No:"))
+no1=int(input("Enter No1:"))
+no2=int(input("enter no2"))
 
-if no1>0:
-    print("no1 is positive")
+if no1>0 and no2>0:
+    print("both no are  positive")
 else :
-    print("no1 is nagetive")
+    print("one of them is nagetive")
